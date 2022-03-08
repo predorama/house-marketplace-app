@@ -3,7 +3,7 @@ import { ReactComponent as DeleteIcon } from '../assets/svg/deleteIcon.svg';
 import bedIcon from '../assets/svg/bedIcon.svg';
 import bathtubIcon from '../assets/svg/bathtubIcon.svg';
 
-const Offers = ({ listing, id, onDelete }) => {
+const ListingItem = ({ listing, id, onDelete }) => {
   return (
     <li className='categoryListing'>
       <Link
@@ -56,4 +56,4 @@ const Offers = ({ listing, id, onDelete }) => {
     </li>
   );
 };
-export default Offers;
+export default ListingItem;
